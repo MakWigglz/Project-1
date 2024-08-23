@@ -1,4 +1,5 @@
-function loadController() {
+function controllerContainer() 
+{
     fetch('Frontend AJAX Call.html')
         .then(response => response.text())
         .then(html => {

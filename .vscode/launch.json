@@ -5,6 +5,20 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "CalculatorApp",
+            "request": "launch",
+            "mainClass": "my_Java_App.src.CalculatorApp",
+            "projectName": "Project#1_542222a5"
+        },
+        {
+            "name": "Launch Chrome",
+            "request": "launch",
+            "type": "chrome",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
             "type": "chrome",
             "request": "launch",
             "name": "Launch Chrome",
@@ -48,8 +62,7 @@
             "name": "Launch Edge (Canary) with DevTools",
             "url": "http://localhost:8080",
             "webRoot": "${workspaceFolder}",
-            "runtimeExecutable": "/Applications/Microsoft Edge Canary.app/Contents/MacOS/Microsoft Edge Canary",
-            
+            "runtimeExecutable": "/Applications/Microsoft Edge Canary.app/Contents/MacOS/Microsoft Edge Canary"
         },
         {
             "type": "msedge",
@@ -57,10 +70,8 @@
             "name": "Launch Edge (Beta) with DevTools",
             "url": "http://localhost:8080",
             "webRoot": "${workspaceFolder}",
-            "runtimeExecutable": "/Applications/Microsoft Edge Beta.app/Contents/MacOS/Microsoft Edge Beta",
-           
+            "runtimeExecutable": "/Applications/Microsoft Edge Beta.app/Contents/MacOS/Microsoft Edge Beta"
         },
-    
         {
             "type": "chrome",
             "request": "launch",
