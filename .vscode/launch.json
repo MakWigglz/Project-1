@@ -5,6 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "my_Java_App.src.App",
+            "projectName": "Project#1_542222a5"
+        },
+        {
             "name": "Attach to Edge",
             "port": 9222,
             "request": "attach",
@@ -16,7 +23,6 @@
             "request": "launch",
             "name": "Launch Java App"
         },
-
         {
             "type": "java",
             "name": "CalculatorApp",

@@ -1,9 +1,9 @@
 function controllerContainer() 
 {
-    fetch('Frontend AJAX Call.html')
+    fetch('ajaxcallcontroller.html')
         .then(response => response.text())
         .then(html => {
-            const controllerContainer = document.getElementById('Frontend AJAX Call.html');
+            const controllerContainer = document.getElementById('ajaxcallcontroller.html');
             controllerContainer.innerHTML = html;
         })
         .catch(error => {
