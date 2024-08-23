@@ -1,0 +1,47 @@
+#### Frontend AJAX Call to Both APIs
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Link Python Flask and Java</title>
+</head>
+<body>
+    <button id="flaskBtn">Call Flask</button>
+    <button id="javaBtn">Call Java</button>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#flaskBtn").click(function(){
+                $.get("http://localhost:5000/api/flask", function(data, status){
+                    alert("Data: " + data.message + "\nStatus: " + status);
+                });
+            });
+            if (status === "success") {
+            alert("Data: " + data.message + "\nStatus: " + status);
+            } else {
+            alert("Error: " + jqXHR.statusText);
+    }
+            $("#javaBtn").click(function(){
+                $.get("http://localhost:8080/api/java", function(data, status){
+                    alert("Data: " + data + "\nStatus: " + status);
+                });
+            });
+        });
+
+
+    </script>
+</body>
+</html>
+```
+####The HTML creates two buttons:
+flaskBtn: Calls the Flask API at http://localhost:5000/api/flask.
+javaBtn: Calls the Java API at http://localhost:8080/api/java.
+jQuery is included to handle AJAX requests more easily.
+The $(document).ready function ensures the JavaScript code runs after the DOM is loaded.
+Clicking a button triggers an AJAX request using jQuery's $.get method:
+$.get makes a GET request to the specified URL.
+The callback function handles the response:
+data: Contains the data returned by the API (if any).
+status: Indicates the success or failure of the request.
+An alert message displays the received data and status.
+To run the frontend, open the HTML file in a browser and click the buttons to call the Flask and Java APIs.

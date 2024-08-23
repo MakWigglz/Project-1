@@ -1,0 +1,8 @@
+{
+    "java.project.sourcePaths": ["my_Java_App/src"],
+    "java.project.outputPath": "my_Java_App/bin",
+    "java.project.referencedLibraries": [
+        "my_Java_App/lib/*.jar"
+    ],
+    "jdk.advanced.disable.nbjavac": false
+}

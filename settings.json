@@ -1,0 +1,82 @@
+{
+    "github.copilot.preferredAccount": "MakWigglz",
+    "github.copilot.chat.scopeSelection": true,
+    "files.autoSave": "afterDelay",
+    "editor.fontSize": 14,
+    "editor.wordWrap": "on",
+    "git.autofetch": true,
+    "vscode-edge-devtools.webhint": false,
+    "git.ignoreMissingGitWarning": true,
+    "git.enableSmartCommit": true,
+    "workbench.startupEditor": "none",
+    "git.confirmSync": false,
+    "redhat.telemetry.enabled": true,
+    "vs-kubernetes": {
+        "vscode-kubernetes.helm-path-mac": "/Users/amakki/.vs-kubernetes/tools/helm/darwin-amd64/helm",
+        "vscode-kubernetes.kubectl-path-mac": "/Users/amakki/.vs-kubernetes/tools/kubectl/kubectl",
+        "vscode-kubernetes.minikube-path-mac": "/Users/amakki/.vs-kubernetes/tools/minikube/darwin-amd64/minikube"
+    },
+    "workbench.editor.showTabs": "single",
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "java.completion.favoriteStaticMembers": [
+        -17.03,
+
+        "org.junit.Assert.*",
+        "org.junit.Assume.*",
+        "org.junit.jupiter.api.Assertions.*",
+        "org.junit.jupiter.api.Assumptions.*",
+        "org.junit.jupiter.api.DynamicContainer.*",
+        "org.junit.jupiter.api.DynamicTest.*",
+        "org.mockito.Mockito.*",
+        "org.mockito.ArgumentMatchers.*",
+        "org.mockito.Answers.*"
+    ],
+    "gitlens.views.commitDetails.files.layout": "list",
+    "gitlens.gitCommands.skipConfirmations": [
+        "fetch:command",
+        "stash-push:command",
+        "pull:command"
+    ],
+    "azureRepos.autoFetch.enabled": false,
+    "svn.conflicts.autoResolve": true,
+    "workbench.activityBar.location": "top",
+    "quokka.compactMessageOutput": true,
+    "quokka.suppressGlyphMarginNotifications": false,
+    "quokka.untrustedWorkspaceBehavior": "Always allow",
+    "quokka.showValueOnMultilineSelection": true,
+    "editor.defaultFoldingRangeProvider": "vscode.configuration-editing",
+    "notebook.defaultFormatter": "vscode.configuration-editing",
+    "editor.defaultFormatter": "vscode.typescript-language-features",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "java.help.collectErrorLog": true,
+    "[python]": {
+        "breadcrumbs.showConstants": true,
+        "diffEditor.ignoreTrimWhitespace": false,
+        "gitlens.codeLens.symbolScopes": [
+            "!Module"
+        ],
+        "editor.formatOnType": true,
+        "editor.wordBasedSuggestions": "off"
+    },
+    "java.import.generatesMetadataFilesAtProjectRoot": true,
+    "java.edit.validateAllOpenBuffersOnChanges": true,
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "calva.prettyPrintingOptions": {
+        "printEngine": "pprint",
+        "enabled": false,
+        "width": 120,
+        "maxLength": 50
+    },
+    "jdk.advanced.disable.nbjavac": true,
+    "files.associations": {
+        "*.java": "html"
+    },
+    "[javascript]": {
+
+        "editor.maxTokenizationLineLength": 2500
+    },
+    "jdk.jdkhome": ""// Add a comma here
+    }

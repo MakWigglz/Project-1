@@ -1,0 +1,47 @@
+/* Reset default styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* General styles */
+h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+}
+
+a {
+    color: #d3a21d;
+    text-decoration: none;
+}
+
+/* Button styles */
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Container styles */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Example for a specific element */
+.div {
+    background-color: #0d30ae;
+    border: 1px solid #63d440;
+    padding: 10px;
+}

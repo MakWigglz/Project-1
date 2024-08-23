@@ -1,0 +1,84 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch Chrome",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "type": "msedge",
+            "request": "launch",
+            "name": "Launch Edge",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "type": "msedge",
+            "request": "launch",
+            "name": "Launch Edge (Canary)",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}",
+            "runtimeExecutable": "/Applications/Microsoft Edge Canary.app/Contents/MacOS/Microsoft Edge Canary"
+        },
+        {
+            "type": "msedge",
+            "request": "launch",
+            "name": "Launch Edge (Beta)",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}",
+            "runtimeExecutable": "/Applications/Microsoft Edge Beta.app/Contents/MacOS/Microsoft Edge Beta"
+        },
+        {
+            "type": "msedge",
+            "request": "launch",
+            "name": "Launch Edge (Dev)",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}",
+            "runtimeExecutable": "/Applications/Microsoft Edge Dev.app/Contents/MacOS/Microsoft Edge Dev"
+        },
+        {
+            "type": "msedge",
+            "request": "launch",
+            "name": "Launch Edge (Canary) with DevTools",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}",
+            "runtimeExecutable": "/Applications/Microsoft Edge Canary.app/Contents/MacOS/Microsoft Edge Canary",
+            
+        },
+        {
+            "type": "msedge",
+            "request": "launch",
+            "name": "Launch Edge (Beta) with DevTools",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}",
+            "runtimeExecutable": "/Applications/Microsoft Edge Beta.app/Contents/MacOS/Microsoft Edge Beta",
+           
+        },
+    
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Open Index.html",
+            "file": "/Users/amakki/Documents/Coding-Design/GitHub/Project#1/Index.html"
+        },
+        {
+            "type": "msedge",
+            "request": "launch",
+            "name": "Open Index.html",
+            "file": "/Users/amakki/Documents/Coding-Design/GitHub/Project#1/Index.html"
+        },
+        {
+            "type": "vscode-edge-devtools.debug",
+            "request": "launch",
+            "name": "Launch Microsoft Edge and open the Edge DevTools",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}
