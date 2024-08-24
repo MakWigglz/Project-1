@@ -1,4 +1,7 @@
 {
     "jdk.runConfig.cwd": "/Users/AMakki/Project#1/my_Java_App",
-    "jdk.advanced.disable.nbjavac": false
+    "jdk.advanced.disable.nbjavac": false,
+    "java.project.sourcePaths": [
+        "my_Java_App/lib"
+    ]
 }
