@@ -5,7 +5,7 @@
     "version": "0.2.0",
     "configurations": [
         
-        
+
         {
             "type": "java",
             "name": "App",
@@ -113,7 +113,7 @@
             "webRoot": "${workspaceFolder}"
         },
         {
-            "type": "pwa-msedge",
+            "type": "msedge",
             "name": "Launch Microsoft Edge",
             "request": "launch",
             "runtimeArgs": [
@@ -125,7 +125,7 @@
             }
         },
         {
-            "type": "pwa-msedge",
+            "type": "msedge",
             "name": "Launch Microsoft Edge in headless mode",
             "request": "launch",
             "runtimeArgs": [
