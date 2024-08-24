@@ -1,3 +1,4 @@
 {
-    "jdk.runConfig.cwd": "/Users/AMakki/Project#1/my_Java_App"
+    "jdk.runConfig.cwd": "/Users/AMakki/Project#1/my_Java_App",
+    "jdk.advanced.disable.nbjavac": false
 }
